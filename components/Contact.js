@@ -5,12 +5,12 @@ export default function Example() {
 
   return (
     <div className="mt-[-50px]">
-      <div className="isolate py-24 px-6 sm:py-32 lg:px-8">
-        <div className="mx-8 max-w-2xl pb-8 text-center">
+      <div className="isolate max-w-2xl py-24 px-6 sm:py-32 mx-[-20px] lg:px-8">
+        <div className="mx-8 pb-8 text-center">
           <h2 className="dark:text-teal-200  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Contact Me
           </h2>
-          <p className="dark:text-slate-300 font-semibold font-mono mt-2 text-lg leading-8 text-gray-600">
+          <p className="sm:mb-[-70px] dark:text-slate-300 font-semibold font-mono mt-2 text-lg leading-8 text-gray-600">
             Aute magna irure deserunt veniam aliqua magna enim voluptate.
           </p>
         </div>

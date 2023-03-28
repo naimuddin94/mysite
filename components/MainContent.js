@@ -20,7 +20,7 @@ export default function MainContent() {
   return (
     <section className="">
       <div className="text-center md:grid grid-cols-2">
-        <div className=" bg-gradient-to-b md:mt-8 from-teal-300  mx-auto rounded-lg w-48 h-48 relative">
+        <div className="relative bg-gradient-to-b md:mt-8 from-teal-300  mx-auto rounded-lg w-48 h-48">
           <Image
             className="rounded-lg bg-gradient-to-b from-teal-500 hover:rotate-0 rotate-12 ease-in-out duration-500"
             src={Pic}

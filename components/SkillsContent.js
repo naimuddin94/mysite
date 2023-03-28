@@ -28,7 +28,6 @@ export default function SkillsContent() {
           <ul className="dark:text-gray-100 text-left font-mono font-semibold rounded-lg shadow-lg text-teal-900 p-4">
             <li>I&apos;m a React medium lavel developer.</li>
             <li>I can make a single page application with React.</li>
-            \jsx-eslint\eslint-plugin-react\tree\master\docs\rules\no-unescaped-entities.md
             <li>Can convert any website to React or Next Js.</li>
             <li>And importantly Can make a website fully responsive.</li>
           </ul>

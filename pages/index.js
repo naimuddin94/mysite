@@ -2,8 +2,6 @@ import Head from "next/head";
 import MainContent from "@/components/MainContent";
 import Link from "next/link";
 import { BsMoonStarsFill } from "react-icons/bs";
-import Image from "next/image";
-import Logo from "../public/mylogo.svg";
 import SkillsContent from "@/components/SkillsContent";
 import Contact from "@/components/Contact";
 import { useState } from "react";
@@ -23,15 +21,10 @@ export default function index() {
         <div className="bg-gray-50 dark:bg-slate-600">
           <main className="mx-8">
             <nav className="flex justify-between mb-12 py-6">
-              <span>
-                <Image
-                  src={Logo}
-                  alt="Logo"
-                  className="absolute mt-[-10px]"
-                  priority
-                  height={70}
-                />
-              </span>
+              <h1 className="text-3xl text-teal-600 dark:text-teal-400 font-bold">
+                Portfolio
+              </h1>
+
               <ul className="flex items-center">
                 <li>
                   <BsMoonStarsFill
@@ -48,7 +41,7 @@ export default function index() {
             <SkillsContent />
             <div className="lg:grid grid-cols-2">
               <WebHistroty />
-              <Contact className="" />
+              <Contact />
             </div>
           </main>
         </div>
