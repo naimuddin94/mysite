@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Pic from "../public/mypicBg.PNG";
+import Pic from "../public/mypic.jpg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function MainContent() {
@@ -20,11 +20,12 @@ export default function MainContent() {
   return (
     <section className="">
       <div className="text-center md:grid grid-cols-2">
-        <div className="relative bg-gradient-to-b md:mt-8 from-teal-300  mx-auto rounded-lg w-48 h-48">
+        <div className="relative bg-gradient-to-b md:mt-8 from-teal-300  mx-auto rounded-lg h-fit">
           <Image
             className="rounded-lg bg-gradient-to-b from-teal-500 hover:rotate-0 rotate-12 ease-in-out duration-500"
             src={Pic}
             alt="Profile Pic"
+            width={250}
           />
         </div>
         <div className="">
