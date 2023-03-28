@@ -3,7 +3,7 @@ import MainContent from "@/components/MainContent";
 import Link from "next/link";
 import { BsMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
-import Logoimg from "../public/mylogo.svg";
+import Logo from "../public/mylogo.svg";
 import SkillsContent from "@/components/SkillsContent";
 import Contact from "@/components/Contact";
 import { useState } from "react";
@@ -25,10 +25,10 @@ export default function index() {
             <nav className="flex justify-between mb-12 py-6">
               <span>
                 <Image
-                  src={Logoimg}
+                  src={Logo}
                   alt="Logo"
                   className="absolute mt-[-10px]"
-                  priority={true}
+                  priority
                   height={70}
                 />
               </span>
