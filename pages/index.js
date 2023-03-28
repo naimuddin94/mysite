@@ -23,11 +23,12 @@ export default function index() {
         <div className="bg-gray-50 dark:bg-slate-600">
           <main className="mx-8">
             <nav className="flex justify-between mb-12 py-6">
-              <span className="">
+              <span>
                 <Image
                   src={Logoimg}
                   alt="Logo"
                   className="absolute mt-[-10px]"
+                  priority={true}
                   height={70}
                 />
               </span>

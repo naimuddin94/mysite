@@ -24,8 +24,6 @@ export default function MainContent() {
           <Image
             className="rounded-lg bg-gradient-to-b from-teal-500 hover:rotate-0 rotate-12 ease-in-out duration-500"
             src={Pic}
-            layout="fill"
-            objectFit="cover"
             alt="Profile Pic"
           />
         </div>
@@ -34,7 +32,7 @@ export default function MainContent() {
             MD Naim Uddin
           </h2>
           <h3 className="flex shadow-lg justify-center py-4 rounded-lg text-2xl font-bold mb-4">
-            <span className="text-teal-600 dark:text-teal-400">I'm</span>
+            <span className="text-teal-600 dark:text-teal-400">I&apos;nm</span>
             <span className="ml-1 text-orange-600 dark:text-orange-500">
               {text}
               <Cursor cursorColor="#4cd137" />
