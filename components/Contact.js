@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Example() {
-  const [agreed, setAgreed] = useState(false);
-
+  const submitHandeler = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="mt-[-50px]">
       <div className="isolate max-w-2xl py-24 px-6 sm:py-32 mx-[-20px] lg:px-8">
@@ -11,10 +12,11 @@ export default function Example() {
             Contact Me
           </h2>
           <p className="sm:mb-[-70px] dark:text-slate-300 font-semibold font-mono mt-2 text-lg leading-8 text-gray-600">
-            Aute magna irure deserunt veniam aliqua magna enim voluptate.
+            I believe in providing exceptional customer service, and that starts
+            with being accessible to my users.
           </p>
         </div>
-        <form className="mx-8 sm:mt-20">
+        <form className="mx-8 sm:mt-20" onSubmit={submitHandeler}>
           <div className="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
               <label

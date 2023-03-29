@@ -19,7 +19,7 @@ export default function index() {
 
       <div className={darkMode ? "dark" : ""}>
         <div className="bg-gray-50 dark:bg-slate-600">
-          <main className="mx-8">
+          <main className="sm:mx-8 mx-4">
             <nav className="flex justify-between mb-12 py-6">
               <h1 className="text-3xl text-teal-600 dark:text-teal-400 font-bold">
                 Portfolio
