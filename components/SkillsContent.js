@@ -27,8 +27,11 @@ export default function SkillsContent() {
           </h4>
           <ul className="dark:text-gray-100 text-left font-mono font-semibold rounded-lg shadow-lg text-teal-900 p-4">
             <li>I&apos;m a React medium lavel developer.</li>
+            <hr />
             <li>I can make a single page application with React.</li>
+            <hr />
             <li>Can convert any website to React or Next Js.</li>
+            <hr />
             <li>And importantly Can make a website fully responsive.</li>
           </ul>
         </div>
@@ -46,11 +49,14 @@ export default function SkillsContent() {
           </h4>
           <ul className="dark:text-gray-100 text-left font-mono font-semibold rounded-lg shadow-lg text-teal-900 p-4">
             <li>I can make api with Django-rest-framwork.</li>
+            <hr />
             <li>
               For a website singup, login, contact and user I mostly used
               Django.
             </li>
+            <hr />
             <li>Expert for make a any application with Django.</li>
+            <hr />
             <li>Can handle a Django application without reload.</li>
           </ul>
         </div>
@@ -68,8 +74,11 @@ export default function SkillsContent() {
           </h4>
           <ul className="dark:text-gray-100 text-left font-mono font-semibold rounded-lg shadow-lg text-teal-900 p-4">
             <li>I work with databases for user friendly.</li>
+            <hr />
             <li>Mostly I do database connection with Django</li>
+            <hr />
             <li>At a time maintain a website every clint need Databases.</li>
+            <hr />
             <li>
               Databases can help manage business growing amounts of critical
               data centrally.

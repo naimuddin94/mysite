@@ -39,12 +39,12 @@ export default function MainContent() {
               <Cursor cursorColor="#4cd137" />
             </span>
           </h3>
-          <p className="text-justify shadow-xl hover:shadow-2xl leading-6 p-5 font-mono font-semibold opacity-70 border-2 border-teal-400 rounded-lg dark:text-gray-100">
+          <p className="text-justify shadow-xl hover:shadow-2xl leading-5 p-5 font-mono font-semibold opacity-70 border-2 border-teal-400 rounded-lg dark:text-gray-100">
             <span className="text-rose-700 text-xl dark:text-sky-300">
               Why should you hire me
             </span>
             <span className="text-blue-600 text-2xl">?</span>
-            <br />I build websites{" "}
+            <br />I build websites
             <span className="text-red-700 dark:text-orange-500">
               professionally
             </span>
