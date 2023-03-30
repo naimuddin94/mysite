@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Mypic from "../public/mypic12.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Social from "./Social";
 
 export default function MainContent() {
   const [text] = useTypewriter({
@@ -18,9 +19,9 @@ export default function MainContent() {
     deleteSpeed: 60,
   });
   return (
-    <section className="">
-      <div className="text-center md:grid grid-cols-2">
-        <div className="relative md:mt-8 bg-gradient-to-b from-teal-300  mx-auto rounded-lg h-48 w-48 md:h-64 md:w-64">
+    <section className="relative">
+      <div className="text-center md:grid grid-cols-12">
+        <div className="col-span-5 relative md:mt-8 bg-gradient-to-b from-teal-300  mx-auto rounded-lg h-48 w-48 md:h-64 md:w-64">
           <Image
             priority
             src={Mypic}
@@ -28,7 +29,7 @@ export default function MainContent() {
             className="hover:scale-125 rotate-12 bg-gradient-to-b from-teal-300 rounded-lg hover:rotate-0 duration-300"
           />
         </div>
-        <div className="">
+        <div className="col-span-6 md:ml-6 order-last">
           <h2 className="font-bold text-3xl pt-5 opacity-70 text-slate-500 dark:text-slate-100">
             MD Naim Uddin
           </h2>
@@ -44,32 +45,20 @@ export default function MainContent() {
               Why should you hire me
             </span>
             <span className="text-blue-600 text-2xl">?</span>
-            <br />I build websites
-            <span className="text-red-700 dark:text-orange-500">
-              professionally
+            <br />
+            <span>
+              I build websites professionally.And provide fully customized
+              website. You will get newly created website which is not copied
+              from other website.If you calculate that your website will be
+              unique.The website code will be very organized which can be easily
+              developed by anyone else later.Later there will be opportunities
+              to develop very easily.Finally, as a developer every project is
+              most important to me.
             </span>
-            . And provide fully{" "}
-            <span className="text-red-700 dark:text-orange-500">
-              customized
-            </span>{" "}
-            website. You will get newly created website which is not{" "}
-            <span className="text-red-700 dark:text-orange-500">copied</span>{" "}
-            from other website. If you calculate that, your website will be{" "}
-            <span className="text-red-700 dark:text-orange-500">unique</span>.
-            The website code will be very{" "}
-            <span className="text-red-700 dark:text-orange-500">organized</span>{" "}
-            which can be easily developed by anyone else later. Later there will
-            be opportunities to
-            <span className="text-red-700 dark:text-orange-500">
-              {" "}
-              develop
-            </span>{" "}
-            very easily. Finally, as a developer every project is most{" "}
-            <span className="text-red-700 dark:text-orange-500">
-              important
-            </span>{" "}
-            to me.
           </p>
+        </div>
+        <div className="col-span-1 mx-auto h-full">
+          <Social />
         </div>
       </div>
     </section>

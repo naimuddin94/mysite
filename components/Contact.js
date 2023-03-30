@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export default function Example() {
   const submitHandeler = (e) => {
     e.preventDefault();
@@ -11,7 +9,7 @@ export default function Example() {
           <h2 className="dark:text-teal-200  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Contact Me
           </h2>
-          <p className="sm:mb-[-70px] dark:text-slate-300 font-semibold font-mono mt-2 text-lg leading-8 text-gray-600">
+          <p className="sm:mb-[-70px] dark:text-slate-300 font-semibold font-mono mt-2 text-lg leading-6 text-gray-600">
             I believe in providing exceptional customer service, and that starts
             with being accessible to my users.
           </p>

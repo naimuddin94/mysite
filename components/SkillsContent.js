@@ -5,7 +5,7 @@ import databaseimg from "../public/Database.jpg";
 
 export default function SkillsContent() {
   return (
-    <div className="mt-6 text-center">
+    <div className="md:mt-12 mt-6 text-center">
       <div className="rounded-lg shadow-lg hover:shadow-md md:w-1/3 m-auto">
         <h1 className="font-bold text-2xl p-3 text-orange-600 opacity-90 dark:text-red-500">
           About My Skills
