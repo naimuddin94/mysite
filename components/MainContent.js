@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Mypic from "../public/mypic12.png";
+import Mypic from "../public/mypic_spandan3.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Social from "./Social";
 
@@ -21,7 +21,7 @@ export default function MainContent() {
   return (
     <section className="relative">
       <div className="text-center md:grid grid-cols-12">
-        <div className="col-span-5 relative md:mt-8 bg-gradient-to-b from-teal-300  mx-auto rounded-lg h-48 w-48 md:h-64 md:w-64">
+        <div className="col-span-5 relative md:mt-8 bg-gradient-to-b from-teal-300  mx-auto rounded-lg h-48 w-48 md:h-64 md:w-64 mb-8">
           <Image
             priority
             src={Mypic}

@@ -26,9 +26,9 @@ export default function SkillsContent() {
             Redux, jQuery
           </h4>
           <ul className="dark:text-gray-100 text-left font-mono font-semibold rounded-lg shadow-lg text-teal-900 p-4">
-            <li>I&apos;m a React medium lavel developer.</li>
+            <li>I&apos;m a React intermediate developer.</li>
             <hr />
-            <li>I can make a single page application with React.</li>
+            <li>I can make a single page application with Next/React JS.</li>
             <hr />
             <li>Can convert any website to React or Next Js.</li>
             <hr />

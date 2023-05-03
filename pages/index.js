@@ -1,6 +1,5 @@
 import Head from "next/head";
 import MainContent from "@/components/MainContent";
-import Link from "next/link";
 import { BsMoonStarsFill } from "react-icons/bs";
 import SkillsContent from "@/components/SkillsContent";
 import Contact from "@/components/Contact";
@@ -32,11 +31,13 @@ export default function index() {
                 <li>
                   <BsMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
-                    className="text-2xl dark:text-white"
+                    className="text-[2.6rem] dark:text-white cursor-pointer hover:bg-blue-200 p-2 rounded-full"
                   />
                 </li>
-                <li className="px-4 py-2 ml-8 btn">
-                  <Link href="#">Resume</Link>
+                <li className="px-4 py-2 ml-4 md:ml-8 btn">
+                  <a href="/resume.pdf" download>
+                    Resume
+                  </a>
                 </li>
               </ul>
             </nav>
